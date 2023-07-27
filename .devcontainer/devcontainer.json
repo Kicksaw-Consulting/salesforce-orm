@@ -1,0 +1,35 @@
+{
+  "name": "It's a Secret MedSpa Zenoti Integration, Python 3.10, Node 18.x",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // General
+        "GitHub.copilot",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "MS-vsliveshare.vsliveshare",
+        "Gruntfuggly.todo-tree",
+        "bierner.github-markdown-preview",
+        "cschleiden.vscode-github-actions",
+        "ryanluker.vscode-coverage-gutters",
+        "hbenl.vscode-test-explorer",
+        // Formatters
+        "esbenp.prettier-vscode",
+        "yzhang.markdown-all-in-one",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
+        "wholroyd.jinja",
+        // Python
+        "ms-python.python",
+        "ms-python.isort",
+        "njpwerner.autodocstring",
+        "LittleFoxTeam.vscode-python-test-adapter"
+      ]
+    }
+  },
+  "postCreateCommand": ".devcontainer/post-create.sh"
+}

@@ -1,0 +1,17 @@
+# IDE
+.vscode
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Development environment
+.venv
+
+# Coverage artifacts
+.coverage
+coverage.xml
+htmlcov
